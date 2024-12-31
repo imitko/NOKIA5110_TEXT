@@ -13,6 +13,7 @@
 	-#  NOKIA5110_FONT_Large (NO LOWERCASE)
 	-#  NOKIA5110_FONT_Huge Numbers + : . only, use / for space
 	-#  NOKIA5110_FONT_Mega Numbers + : . only, use / for space
+	-#  NOKIA5110_FONT_LCD7 Numbers + : . only, use / for space
 */
 
 #ifndef _HEADER_NOKIAFONT_H
@@ -36,6 +37,7 @@
 //#define NOKIA5110_FONT_Large /**< (7) Large 12x16 */
 //#define NOKIA5110_FONT_Huge  /**< (8) Huge 16x24 */
 //#define NOKIA5110_FONT_Mega  /**< (9) Mega 16x32 */
+//#define NOKIA5110_FONT_LCD7  /**< (10) LCD7 16x32 */
 
 
 #ifdef  NOKIA5110_FONT_Default
@@ -64,6 +66,9 @@ extern const  uint32_t  (* pFontHugePtr)[16];
 #endif
 #ifdef NOKIA5110_FONT_Mega
 extern const  uint32_t  (* pFontMegaPtr)[16];
+#endif
+#ifdef NOKIA5110_FONT_LCD7
+extern const  uint32_t  (* pFontLCD7Ptr)[16];
 #endif
 
 

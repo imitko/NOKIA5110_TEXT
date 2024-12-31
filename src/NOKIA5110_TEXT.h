@@ -76,7 +76,8 @@ enum LCDFontType_e : uint8_t
 	LCDFont_Tiny = 6, /**<  tiny 3x8 */
 	LCDFont_Large = 7, /**<  Large 12 X 16 (no lowercase letters) */
 	LCDFont_Huge = 8, /**<  Huge 16 X24 (numbers + . : only)  */
-	LCDFont_Mega = 9 /**<  Mega 16 X 32 (numbers + . : / only) */
+	LCDFont_Mega = 9, /**<  Mega 16 X 32 (numbers + . : / only) */
+	LCDFont_LCD7 = 10 /**<  LCD7 16 X 32 (numbers + . : / only) */
 };
 
 /*! Padding type to add to selected  font and custom character , padding consist of a single byte of data , vertical column */
